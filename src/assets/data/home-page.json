@@ -1,0 +1,15 @@
+{
+  "init":[
+    {"homecontantID":"1","homeimage": "vegetable_02.png", "hometitle": "五花肉", "lastmoney": "25", "firstmoney": "30"},
+    {"homecontantID":"2","homeimage": "vegetable_01.png", "hometitle": "青椒肉丝", "lastmoney": "68", "firstmoney": "30"},
+    {"homecontantID":"3","homeimage": "vegetable_03.png", "hometitle": "麻婆豆腐", "lastmoney": "45", "firstmoney": "30"},
+    {"homecontantID":"4","homeimage": "vegetable_03.png", "hometitle": "回锅肉", "lastmoney": "35", "firstmoney": "30"},
+    {"homecontantID":"5","homeimage": "vegetable_01.png", "hometitle": "麻婆豆腐", "lastmoney": "68", "firstmoney": "30"},
+    {"homecontantID":"6","homeimage": "vegetable_02.png", "hometitle": "青椒肉丝", "lastmoney": "25", "firstmoney": "30"},
+    {"homecontantID":"7","homeimage": "vegetable_02.png", "hometitle": "五花肉", "lastmoney": "32", "firstmoney": "30"},
+    {"homecontantID":"8","homeimage": "vegetable_01.png", "hometitle": "麻婆豆腐", "lastmoney": "65", "firstmoney": "30"},
+    {"homecontantID":"9","homeimage": "vegetable_03.png", "hometitle": "青椒肉丝", "lastmoney": "76", "firstmoney": "30"},
+    {"homecontantID":"10","homeimage": "vegetable_03.png", "hometitle": "回锅肉", "lastmoney": "34", "firstmoney": "30"},
+    {"homecontantID":"11","homeimage": "vegetable_03.png", "hometitle": "回锅肉", "lastmoney": "34", "firstmoney": "30"}
+  ]
+}

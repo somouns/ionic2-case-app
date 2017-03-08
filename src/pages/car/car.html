@@ -1,0 +1,81 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      购物车<span class="car_compile">编辑</span>
+    </ion-title>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item class="car_imgs">
+      <input type="checkbox" class="car_check"/>
+      <ion-avatar item-left>
+        <img src="assets/img/vegetable_001.png"/>
+      </ion-avatar>
+      <h2>胡萝卜(大颗/新鲜)</h2>
+      <p>已选 <i>24斤</i> <span class="car_subtotal">小计 <i>&yen;0.00</i></span></p>
+    </ion-item>
+    <ion-item class="car_imgs">
+      <input type="checkbox" class="car_check"/>
+      <h2><i>&yen;3.16</i>/袋(4斤)</h2>
+      <h3>&yen; 0.79/斤</h3>
+      <p><img src="" alt=""/>每店限购10件!</p>
+      <div class="method_con">
+        <button>-</button><span>1</span><button>+</button>
+      </div>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item class="car_imgs">
+      <input type="checkbox" class="car_check"/>
+      <ion-avatar item-left>
+        <img src="assets/img/vegetable_001.png"/>
+      </ion-avatar>
+      <h2>大白菜(大颗/新鲜)</h2>
+      <p>已选 <i>15斤</i> <span class="car_subtotal">小计 <i>&yen;0.00</i></span></p>
+    </ion-item>
+    <ion-item class="car_imgs">
+      <input type="checkbox" class="car_check"/>
+      <h2><i>&yen;3.16</i>/袋(4斤)</h2>
+      <h3>&yen; 0.79/斤</h3>
+      <p><img src="" alt=""/>每店限购10件!</p>
+      <div class="method_con">
+        <button>-</button><span>1</span><button>+</button>
+      </div>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-item class="car_imgs">
+      <input type="checkbox" class="car_check"/>
+      <ion-avatar item-left>
+        <img src="assets/img/vegetable_001.png"/>
+      </ion-avatar>
+      <h2>金针菇(大颗/新鲜)</h2>
+      <p>已选 <i>24斤</i> <span class="car_subtotal">小计 <i>&yen;0.00</i></span></p>
+    </ion-item>
+    <ion-item class="car_imgs">
+      <input type="checkbox" class="car_check"/>
+      <h2><i>&yen;3.16</i>/袋(4斤)</h2>
+      <h3>&yen; 0.79/斤</h3>
+      <p><img src="" alt=""/>每店限购10件!</p>
+      <div class="method_con">
+        <button>-</button><span>1</span><button>+</button>
+      </div>
+    </ion-item>
+  </ion-list>
+  <ion-list class="car_fixed">
+    <ion-item class="car_imgs car_imgs1">
+      <div><i class="distribution">起送说明</i> <span>单日累计下单金额满&yen;100.00起送</span></div>
+    </ion-item>
+    <ion-item class="car_imgs car_imgs1">
+      <p>
+        <input type="checkbox" class="car_check car_check1"/>
+        <span class="all_select">全选</span>
+        <span class="all_total">总价 <i>&yen;18.96</i></span>
+        <a (click)="goToOtherPage()">差&yen;81.04起送</a>
+      </p>
+    </ion-item>
+  </ion-list>
+</ion-content>

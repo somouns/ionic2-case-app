@@ -1,0 +1,36 @@
+page-my{
+  html{
+    font-size: 57%;
+  }
+  .padding_0{
+    padding:0;
+    margin:8px 0;
+    width:100%;
+  }
+  .myhome_header{
+    text-align: center;
+    background: #2EA55A;
+    color:#fff;
+  }
+  .myhome_header_name{
+    margin-top:30px;
+  }
+  .myhome_header_name h4{
+    margin:5px 0 0 0;
+  }
+  .myhome_header_name p{
+    margin:5px;
+  }
+  .icon{
+    font-size: 25px;
+  }
+  .list-md:not(:last-child){
+    border-bottom: 2px solid #eee;
+
+  }
+  .content-md .scroll-content{
+    margin-top:31%;
+  }
+}
+
+

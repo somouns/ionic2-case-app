@@ -1,0 +1,149 @@
+page-car {
+  .car_compile{
+    float:right;
+    margin-right:15px;
+    color:#2EA55A;
+    font-size: 15px;
+  }
+  .car_imgs img{
+    border:1px solid #ccc;
+    border-radius: 0;
+  }
+  .car_imgs i{
+    font-style: normal;
+    color:#FF7143;
+  }
+  .car_imgs .car_check{
+    position: absolute;
+    left:10px;
+    top:20px;
+    width: 21px;
+    height: 21px;
+    border:1px solid #eee;
+    border-radius: 50%;
+    float: left;
+  }
+  .car_check1{
+    top:15px;
+  }
+  .car_imgs{
+    position: relative;
+    padding-left:15%;
+  }
+  .car_subtotal{
+    float:right;
+  }
+  .car_fixed{
+    position: absolute;
+    left:0;
+    bottom:0;
+    margin:0;
+    right:0;
+  }
+  .car_fixed .car_imgs1{
+    padding:0;
+  }
+  .car_imgs .distribution{
+    display: inline-block;
+    padding:5px 10px;
+    border: 1px solid #2EA55A;
+    border-radius: 3px;
+    color:#2EA55A;
+    margin-left:10px;
+  }
+  .car_imgs a{
+    height:53px;
+    line-height:53px;
+    background:#ccc;
+    color:#fff;
+    text-align: center;
+    outline: 0;
+    width:35%;
+    display: inline-block;
+    float:right;
+  }
+  .label-ios{
+    margin:0;
+  }
+  .car_fixed .car_imgs .item-inner{
+    padding-right:0;
+  }
+  .label-ios>span{
+    display: inline-block;
+
+  }
+  .car_check1{
+    vertical-align: middle;
+  }
+  .all_select{
+    display: inline-block;
+    margin-left: 10%;
+    line-height:53px ;
+  }
+  .all_total{
+    display: inline-block;
+    margin-left: 20%;
+  }
+  .car_imgs .car_check1{
+    top:15px;
+  }
+  .car_imgs{
+    position: relative;
+  }
+  .method_con{
+    position: absolute;
+    right:3px;
+    top:15px;
+    border:1px solid #ccc;
+    border-radius: 25px;
+    border-left:0;
+    border-right:0;
+  }
+  .method_con button{
+    background: #fff;
+    width: 25px;
+    height:25px;
+    padding:0;
+    font-size: 20px;
+    border:1px solid #ccc;
+    color:#2EA55A;
+  }
+  .method_con button:first-child{
+    border-radius: 25px;
+  }
+  .method_con button:last-child{
+    border-radius:25px;
+  }
+  .method_con span{
+    display: inline-block;
+    padding:0 8px;
+    color:#000;
+  }
+  .toolbar-title-md{
+    text-align: center;
+    color:#fff;
+  }
+  .toolbar-title-md span{
+    color:#333;
+  }
+  .car_compile{
+    margin-top:4px ;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  .label-md{
+    margin:0;
+  }
+  .label-md p{
+    margin:0;
+  }
+  .label-md p a{
+    font-size: 16px;
+  }
+  .list-md{
+    border-bottom:1px solid #ddd;
+  }
+  .toolbar-background-md{
+    background:#2EA55A;
+  }
+}

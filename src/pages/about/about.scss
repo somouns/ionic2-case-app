@@ -1,0 +1,94 @@
+.about_cont {
+  .toolbar-content .icon-ios{
+    display: inline-block;
+    padding:0 8px;
+    font-size: 25px;
+    color: #2EA55A;
+  }
+  .scroll-content .card-ios1{
+    margin:0;
+    background:#FFFCE1;
+    width:100%;
+  }
+  .card-ios{
+    width: 100%;
+    margin:10px 0;
+    background:#F7F7F7;
+  }
+  .data_right{
+    display: inline-block;
+    float: right;
+  }
+  .data_right_pay{
+    border-bottom:1px solid #eee;
+  }
+  .card-ios .data_right_favorable i{
+    font-style: normal;
+    background: #FF2620;
+    display: inline-block;
+    padding:3px 5px;
+    border-radius: 3px;
+    vertical-align: top;
+    margin-top:3px;
+  }
+  .car_imgs_pay{
+    margin-left:50px;
+  }
+  .car_subtotal{
+    float:right;
+  }
+  .about_cont .ion_fixed{
+    position: absolute;
+    bottom:0;
+    left:0;
+    margin:0;
+    width:100%;
+  }
+  .item-block{
+    min-height: 2.4rem;
+  }
+  .list-ios{
+    margin:0;
+  }
+  .card-md{
+    width:100%;
+    margin:10px 0;
+  }
+  .list-md{
+    border-top:1px solid #ddd;
+  }
+  .ion-ios-arrow-forward{
+    vertical-align: middle;
+  }
+  .ion_fixed{
+    position: fixed;
+    bottom:9%;
+    margin:0;
+    width:100%;
+  }
+  .ion_fixed a{
+    float:right;
+    padding:5px 10px;
+    background:#2EA55A;
+    color:#fff;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+    vertical-align: middle;
+  }
+  .ion_fixed p{
+    line-height: 27px ;
+    margin:0;
+  }
+  .ion_fixed span{
+    color:#FF2620;
+    font-size: 18px;
+  }
+  .label-md{
+    margin:8px 0;
+    line-height: 37px;
+  }
+  .car_subtotal i{
+    padding-right:5px;
+  }
+}

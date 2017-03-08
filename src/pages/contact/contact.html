@@ -1,0 +1,114 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button>
+      <ion-icon name="arrow-down"></ion-icon>
+    </button>
+    <ion-searchbar placeholder="搜索你想找寻的商品"></ion-searchbar>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+
+  <div padding class="con_left">
+    <ion-segment [(ngModel)]="pet" class="con_main">
+      <ion-segment-button value="kittens">
+        新鲜蔬菜
+      </ion-segment-button>
+      <ion-segment-button value="puppies1">
+        禽兽类
+      </ion-segment-button>
+      <ion-segment-button value="puppies2">
+        米面粮油
+      </ion-segment-button>
+      <ion-segment-button value="puppies3">
+        酒水饮料
+      </ion-segment-button>
+      <ion-segment-button value="puppies4">
+        时令果蔬
+      </ion-segment-button>
+    </ion-segment>
+  </div>
+
+  <div [ngSwitch]="pet"  style="width:80%;float: right;">
+
+    <ion-list *ngSwitchCase="'kittens'">
+      <ion-grid class="con_grid">
+      <ion-row>
+        <ion-col width-50 class="con_col">只看促销</ion-col>
+        <ion-col width-50 class="con_col">
+          按名称筛选 <span></span>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+      <ion-item class="contact_item">
+        <ion-thumbnail item-left>
+          <img src="assets/img/vegetable_01.png">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+        <p><span>&yen;6.18/斤</span> 起</p>
+        <h3>选规格</h3>
+        <div class="method_con">
+          <button>-</button><span>1</span><button>+</button>
+        </div>
+      </ion-item>
+      <ion-item class="contact_item">
+        <ion-thumbnail item-left>
+          <img src="assets/img/vegetable_01.png">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+      </ion-item>
+    </ion-list>
+
+    <ion-list *ngSwitchCase="'puppies1'">
+      <ion-item class="contact_item">
+        <ion-thumbnail item-left>
+          <img src="assets/img/vegetable_03.png">
+        </ion-thumbnail>
+        <h2>Luna</h2>
+        <p><span>&yen;6.18/斤</span> 起</p>
+        <h3>选规格</h3>
+        <div class="method_con">
+          <button>-</button><span>1</span><button>+</button>
+        </div>
+      </ion-item>
+    </ion-list>
+    <ion-list *ngSwitchCase="'puppies2'">
+      <ion-item class="contact_item">
+        <ion-thumbnail item-left>
+          <img src="assets/img/vegetable_01.png">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+        <p><span>&yen;6.18/斤</span> 起</p>
+        <h3>选规格</h3>
+        <div class="method_con">
+          <button>-</button><span>1</span><button>+</button>
+        </div>
+      </ion-item>
+    </ion-list>
+    <ion-list *ngSwitchCase="'puppies3'">
+      <ion-item class="contact_item">
+        <ion-thumbnail item-left>
+          <img src="assets/img/vegetable_03.png">
+        </ion-thumbnail>
+        <h2>Luna</h2>
+        <p><span>&yen;6.18/斤</span> 起</p>
+        <h3>选规格</h3>
+        <div class="method_con">
+          <button>-</button><span>1</span><button>+</button>
+        </div>
+      </ion-item>
+    </ion-list>
+    <ion-list *ngSwitchCase="'puppies4'">
+      <ion-item class="contact_item">
+        <ion-thumbnail item-left>
+          <img src="assets/img/vegetable_01.png">
+        </ion-thumbnail>
+        <h2>Ruby</h2>
+        <p><span>&yen;6.18/斤</span> 起</p>
+        <h3>选规格</h3>
+        <div class="method_con">
+          <button>-</button><span>1</span><button>+</button>
+        </div>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

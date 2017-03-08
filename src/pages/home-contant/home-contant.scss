@@ -1,0 +1,43 @@
+page-home-contant {
+  .content{
+    background:#eee;
+  }
+  .homecotant-title{
+    text-align: center;
+  }
+  .homecotant-ion{
+    float: right;
+  }
+  .scroll-content{
+    padding:0;
+  }
+  .card{
+    margin:0;
+  }
+  .item-contanthome{
+    padding:0  10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .item-contanthome span{
+    font-size: 18px;
+    vertical-align: middle;
+  }
+  .item-contanthome h3{
+    color:#aaa;
+  }
+  .item-contanthome01{
+    margin:5px 0;
+    padding:0 10px;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+  }
+  .list-md .item-block .item-inner{
+    border:0;
+  }
+  .list-photo .item:first-child{
+    border-bottom:1px solid #ddd;
+  }
+  .list-photo .item{
+    padding-left:10px;
+  }
+}

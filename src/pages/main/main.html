@@ -1,0 +1,109 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button>
+      <ion-icon name="arrow-down"></ion-icon>
+    </button>
+    <ion-searchbar placeholder="商品名称"></ion-searchbar>
+    <button ion-button class="btn_right">
+      <ion-icon name="text"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content class="clear">
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+      pullingIcon="ios-arrow-round-down"
+      pullingText="松开立即刷新"
+      refreshingSpinner="circles"
+      refreshingText="正在刷新数据中">
+    </ion-refresher-content>
+  </ion-refresher>
+  <div class="bannerContainer">
+    <ul class="bannerPicList">
+      <li [class.active]="currentPic==0"><img src="assets/img/banner_08.jpg"/></li>
+      <li [class.active]="currentPic==1"><img src="assets/img/banner_09.jpg"/></li>
+      <li [class.active]="currentPic==2"><img src="assets/img/banner_10.jpg"/></li>
+    </ul>
+    <ul class="bannerBtnList">
+      <li><span class="picBtn" (click)="changebanner(0)"></span></li>
+      <li><span class="picBtn" (click)="changebanner(1)"></span></li>
+      <li><span class="picBtn" (click)="changebanner(2)"></span></li>
+    </ul>
+  </div>
+  <ion-grid class="grid" style="margin-top: 31%;">
+    <ion-row>
+      <ion-col width-25 class="col_center">
+        <ion-avatar item-center class="col_img">
+          <img src="assets/img/banner.png" routerLink="one" (click)="goToContactPage()">
+        </ion-avatar>
+        <p>开始购买</p>
+      </ion-col>
+      <ion-col width-25 class="col_center">
+        <ion-avatar item-center class="col_img">
+          <img src="assets/img/banner.png">
+        </ion-avatar>
+        <p>我的收藏</p>
+      </ion-col>
+      <ion-col width-25 class="col_center">
+        <ion-avatar item-center class="col_img">
+          <img src="assets/img/banner.png">
+        </ion-avatar>
+        <p>我的红包</p>
+      </ion-col>
+      <ion-col width-25 class="col_center">
+        <ion-avatar item-center class="col_img">
+          <img src="assets/img/banner.png">
+        </ion-avatar>
+        <p>我的订单</p>
+      </ion-col>
+    </ion-row>
+    <div class="nav-banner-1">
+      <img src="assets/img/banner_11.jpg" alt=""/>
+    </div>
+  </ion-grid>
+  <ion-list>
+    <ion-item *ngFor="let item of initList | slice:0:5" (click)="listHomeContant($event,item)">
+      <ion-card>
+        <img src="assets/img/{{item.homeimage}}" alt=""/>
+        <ion-card-content>
+          <ion-card-title>
+            {{item.hometitle}}
+          </ion-card-title>
+          <p>
+            ￥{{item.lastmoney}}/斤 <s>￥{{item.firstmoney}}</s>
+          </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-item>
+    <!--    <ion-item>
+          <ion-card>
+            <img src="assets/img/vegetable_01.png" alt=""/>
+            <ion-card-content>
+              <ion-card-title>
+                五花肉
+              </ion-card-title>
+              <p>
+                ￥14.5/斤 <s>￥16</s>
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-item>
+        <ion-item>
+          <ion-card>
+            <img src="assets/img/vegetable_01.png" alt=""/>
+            <ion-card-content>
+              <ion-card-title>
+                五花肉
+              </ion-card-title>
+              <p>
+                ￥14.5/斤 <s>￥16</s>
+              </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-item>-->
+  </ion-list>
+
+</ion-content>

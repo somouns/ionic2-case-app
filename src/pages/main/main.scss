@@ -1,0 +1,245 @@
+page-main {
+  body{
+    background:#eee;
+  }
+  .clear{
+    clear:both;
+  }
+
+  .searchbar-input-container{
+    text-align: center;
+    border-radius: 31px;
+    margin:12px;
+    background: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width:100%;
+    height:31px;
+  }
+  .searchbar{
+    width:78%;
+    float:left;
+    position: absolute;
+    left:50%;
+    margin-left: -39%;
+  }
+  .toolbar .searchbar-input{
+    height:100%;
+  }
+  .ion-navbar.toolbar{
+    height: 300px;
+  }
+  .toolbar .searchbar-md{
+    padding:3px;
+  }
+  .searchbar-md.searchbar-search-icon input{
+    color:#fff;
+  }
+  .searchbar-md .searchbar-search-icon{
+    top:6px;
+    color:#fff;
+  }
+  .col_center{
+    text-align: center;
+  }
+  .col_center>.col_img>img{
+    display: inline-block;
+    width:50px;
+    border-radius: 50px;
+    text-align:center;
+    cursor: pointer;
+  }
+  .col_center>p{
+    color:#777;
+    margin:5px;
+  }
+  .label-ios span{
+    display: inline-block;
+    text-align: right;
+    margin-left: 13%;
+  }
+  .label-ios h2:first-child{
+    margin-top:0;
+  }
+  .label-ios p{
+    margin-top:8px;
+  }
+  .label>p>img{
+    width:33.3%;
+  }
+  .scroll-content .card-ios{
+    float:left;
+    width: 33.3%;
+    display: inline-block;
+    margin:0;
+    border-radius: 0;
+  }
+  .card-ios img{
+    width:100%;
+    display: inline-block;
+  }
+  .card-content-ios{
+    padding:5px;
+  }
+  .card-title-ios{
+    padding:0;
+    font-size: 1.3rem;
+  }
+  .card-content-ios p{
+    color:#DD4F43;
+    font-size: 1.2rem;
+  }
+  .card-content-ios p s{
+    color:#777;
+  }
+  .bannerContainer{
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-10;
+  }
+  .toolbar-background-ios{
+    background: rgba(0, 0, 0, 0);
+  }
+  .button{
+    height:25px;
+    width:25px;
+    border-radius: 27px;
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+    background: #2EA55A;
+    color:#fff;
+    float:left;
+    vertical-align: middle;
+    margin-top:10px;
+    margin-left:10px;
+  }
+  .btn_right{
+    float:right;
+  }
+  .grid{
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+    padding:0;
+  }
+  .nav-banner-1{
+    border-bottom:1px solid #eee;
+  }
+  //图片轮播
+  .bannerPicList{
+    padding: 0;
+    margin: 0;
+  }
+  .bannerPicList li{
+    display: none;
+  }
+  .bannerPicList li.active{
+    display: block;
+  }
+  .bannerContainer .bannerBtnList {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    padding:0;
+    margin:0;
+  }
+  .bannerContainer .bannerBtnList li {
+    float: left;
+    list-style-type:none;
+  }
+  .bannerContainer .bannerBtnList span.picBtn {
+    margin: 8px;
+    height: 10px;
+    width: 10px;
+    background-color: #eee;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .scroll-content .card-md{
+    margin:0;
+    float:left;
+  }
+  .searchbar-md .searchbar-input{
+    padding:0 38px;
+    border-radius: 0;
+  }
+  .card-title-md{
+    font-size:2rem;
+  }
+  .icon-md{
+    display:inline-block;
+    font-size:1.5em;
+
+  }
+  .card-content-md{
+    padding:5px;
+  }
+  .toolbar-background-md{
+    background:#2EA55A;
+  }
+  .button-md{
+    background:rgba(0,0,0,.2);
+    text-align: center;
+  }
+  .toolbar .toolbar-md{
+    padding:0;
+  }
+  .toolbar-content-md{
+    overflow: hidden;
+    height:56px;
+  }
+  .button-md{
+    margin:15px;
+  }
+  .button{
+    text-align: center;
+    width:31px;
+    height:31px;
+    border-radius: 31px;
+    text-align: center;
+    line-height: 31px;
+  }
+  .list-md{
+    float: left;
+  }
+  .item-md{
+    width:33.3333333333%;
+    padding-left:0;
+    float:left;
+    text-align: center;
+    border-right: 1px solid #ddd;
+  }
+  .item-md:last-child{
+    border-bottom: 1px solid #ddd;
+  }
+  .item-inner{
+    padding:0;
+  }
+  .label-md{
+    padding:0;
+    margin:0;
+  }
+  .card-md{
+    width:100%;
+  }
+  .list-md .item-md .item-inner{
+    padding:0;
+  }
+  .card-md img{
+    width:70%;
+    margin-left:15%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
