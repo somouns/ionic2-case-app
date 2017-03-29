@@ -21,7 +21,6 @@ import { ContactModule } from '../pages/contact/contact.module';
 import { MainModule } from '../pages/main/main.module';
 
 
-
 @NgModule({
   declarations: [
     MyApp,

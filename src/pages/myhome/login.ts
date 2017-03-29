@@ -19,6 +19,7 @@ export class LoginPage {
   constructor(public navCtrl:NavController,
               public loadingCtrl:LoadingController,
               private toastCtrl:ToastController) {
+
   }
 
   loginFull() {

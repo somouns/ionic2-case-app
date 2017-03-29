@@ -65,7 +65,7 @@
     </div>
   </ion-grid>
   <ion-list>
-    <ion-item *ngFor="let item of initList | slice:0:5" (click)="listHomeContant($event,item)">
+    <ion-item *ngFor="let item of initList" (click)="listHomeContant()">
       <ion-card>
         <img src="assets/img/{{item.homeimage}}" alt=""/>
         <ion-card-content>

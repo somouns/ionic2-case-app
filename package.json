@@ -39,13 +39,7 @@
     "cordova-plugin-console",
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
-    "cordova-plugin-whitelist",
-    "cordova-plugin-file",
-    "cordova-plugin-geolocation",
-    "cordova-plugin-http",
-    "cordova-plugin-image-picker",
-    "",
-    ""
+    "cordova-plugin-whitelist"
   ],
   "cordovaPlatforms": [],
   "description": "Seafoods: An Ionic project"

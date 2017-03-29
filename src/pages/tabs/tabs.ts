@@ -10,7 +10,6 @@ import { FormPage } from '../form/form';
 import { MainPage } from '../main/main';
 
 
-
 @Component({
   templateUrl: 'tabs.html'
 })

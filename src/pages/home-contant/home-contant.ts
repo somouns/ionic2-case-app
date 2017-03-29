@@ -1,21 +1,22 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 
+/*
+  Generated class for the HomeContant page.
 
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
 @Component({
   selector: 'page-home-contant',
   templateUrl: 'home-contant.html'
 })
 export class HomeContantPage {
-  public homecontId;
-  constructor(public navCtrl: NavController,
-              public navParams: NavParams) {
-    //获取main.ts页面listHomeContant点击事件传递过来的参数
-    this.homecontId=this. navParams.get("homecontId");
-    console.log(this.homecontId);//打印参数
-  }
+
+  constructor(public navCtrl: NavController, public navParams: NavParams) {}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad HomeContantPage');
   }
+
 }
